@@ -1,27 +1,51 @@
-1. Create a new project on Firebase
+Notifications Sender
+====================
 
-2. Create a new app
+Descrição
+---------
 
-3. Create a new project on Android Studio
+Notifications Sender é um app para envio de notificações push, com o intuito de estudar e praticar tecnologias relacionadas.
 
-4. Copy the google-services.json
+Diagrama
+--------
 
-5. Edit the build.gradle files
+<img width="926" alt="Captura de Tela 2022-03-13 às 02 19 21" src="https://user-images.githubusercontent.com/66238089/158046453-ca4fbe8b-9dc6-43ba-b5de-80444e50c4e7.png">
 
-6. Edit the MainActivity to get a device token
+Passos
+------
 
-7. Create a class to override the behavior when a notification is received and the app is opened
+1. Criar um novo projeto em Firebase
 
-8. Edit the AndroidManifest
+2. Criar um novo app
 
-9. Build and create an apk file
+3. Criar um novo projeto no Android Studio
 
-10. Install the apk on your phone
+4. Copiar o google-services.json
 
-11. Send an notification using firebase
+5. Editar o arquivo build.gradle
 
-12. Create a Platform Application on AWS SNS
+6. Editar o MainActivity para obter o device token
 
-13. Create an endpoint using the device token
+7. Criar uma classe para substituir o comportamento quando uma notificação é recebida e o aplicativo é aberto
 
-14. Send a notification using a lambda (AWS SDK)
+8. Editar o AndroidManifest
+
+9. Buildar e criar um ariquivo apk
+
+10. Instalar o apk no telefone
+
+11. Enviar uma notificação usando firebase
+
+12. Criar uma Platform Application no AWS SNS
+
+13. Criar um endpoint usando o device token
+
+14. Enviar uma notificação usando o Lambda (AWS SDK)
+
+Referências
+-----------
+
+[Original tutorial](https://www.youtube.com/watch?v=w6rQdurucCk)  
+[Android Docs](https://developer.android.com/docs)  
+[FCM](https://firebase.google.com/docs/cloud-messaging?hl=pt-br)  
+[AWS SNS](https://aws.amazon.com/sns)
